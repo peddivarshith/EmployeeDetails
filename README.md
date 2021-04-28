@@ -1,8 +1,13 @@
 # EmployeeDetails
 
-### This is an application which performs CRUD operations on EmployeeDetails through GUI
+### This is an application which performs CRUD operations on EmployeeDetails through GUI.
+#### Description:
+'''
+When the user send's a request to the server through **localhost:5000**,the sever renders an ejs file to the client and user can see the list of employee details.
+Here user can perform Add | Delete | Update an employee by going to the respective section. Employee details are stored in MongoDB and they are fetched by server.
+'''
 
-#### Technology requirements
+#### Technical requirements
 - NodeJS
 - EJS
 - AdminLTE(bootstrap)
@@ -15,18 +20,18 @@
 - npm install nodemon [nodemon-ref](https://www.npmjs.com/package/nodemon)
 
 #### Images of the application
-- **Slide**
+- **EmployeeDetails**
   > This is the starting page when you request the server.
   > It shows the list of employeedetails.
   ![](tutorial/step1.png)
-- **Slide2**
+- **AddEmployeeDetails**
   > You can add new Employee by going to Add Employee Section.
   > Here it shows a form with different field to be filled.
   ![](tutorial/step2.png)
-- **Slide33**
+- **UpdateEmployeeDetails**
   > Even you can update the exisiting employee by entering the EmpId. 
   ![](tutorial/step3.png)
-- **Slide4**
+- **DeleteAnEmployee**
   > You can delete the exisiting employee by providing the EmpId.
   ![](tutorial/step4.png)
 
