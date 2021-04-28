@@ -13,6 +13,7 @@
 - npm install mongodb [mongodb-ref](https://www.npmjs.com/package/mongodb)
 - npm install nodemon [nodemon-ref](https://www.npmjs.com/package/nodemon)
 
-#### Steps tot run the application
+#### Structural design of the application
 - **Step1**
-  
+  ![](tutorial/step1.png)
+- **Step2**
