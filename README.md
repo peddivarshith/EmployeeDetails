@@ -2,11 +2,9 @@
 
 ### This is an application which performs CRUD operations on EmployeeDetails through GUI.
 #### Description:
-```
-When the user send's a request to the server through **localhost:5000**,the sever renders an ejs file to the client and user can see the list of employee details.
+**When the user send's a request to the server by typing localhost:portNumber,the sever renders an ejs file to the client and user can see the list of employee details.
 Employee details are stored in MongoDB and they are fetched by server. User can perform (Add | Delete | Update) operation on an employee. The main idea of the application is 
-to provide a user with a user-friendly interface to interact with the data.
-```
+to provide a user with a user-friendly interface to interact with the data.**
 
 #### Technical requirements
 - NodeJS
