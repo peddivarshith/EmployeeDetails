@@ -5,6 +5,8 @@
 #### Technology requirements
 - NodeJS
 - EJS
+- AdminLTE(bootstrap)
+
 #### Package requirements
 - npm install ejs [ejs-ref](https://www.npmjs.com/package/ejs)
 - npm install express [express-ref](https://www.npmjs.com/package/express)
