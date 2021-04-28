@@ -12,3 +12,7 @@
 - npm install express [express-ref](https://www.npmjs.com/package/express)
 - npm install mongodb [mongodb-ref](https://www.npmjs.com/package/mongodb)
 - npm install nodemon [nodemon-ref](https://www.npmjs.com/package/nodemon)
+
+#### Steps tot run the application
+- **Step1**
+  
