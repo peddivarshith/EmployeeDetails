@@ -45,7 +45,7 @@
 				]);
 			// Optional; add a title and set the width and height of the chart
 			var options = {title:'SALARY', width:1000, height:350,backgroundColor: '#FA8072',is3D: true};
-			// Display the chart inside the <div> element with id="piechart"
+			// Display the chart inside the <div> element with id="piechart1"
 			var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
 			chart.draw(data, options);
 			}
@@ -58,7 +58,7 @@
 			var data = google.visualization.arrayToDataTable(position);
 			// Optional; add a title and set the width and height of the chart
 			var options = {title:'Different Positions', width:1000, height:350,backgroundColor: '#FA8072',is3D: true};
-			// Display the chart inside the <div> element with id="piechart"
+			// Display the chart inside the <div> element with id="piechart2"
 			var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
 			chart.draw(data, options);
 			}
