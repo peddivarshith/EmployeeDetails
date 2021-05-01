@@ -33,4 +33,7 @@ to provide a user with a user-friendly interface to interact with the data.**
 - **DeleteAnEmployee**
   > You can delete the exisiting employee by providing the EmpId.
   ![](tutorial/step4.png)
+- **VisualizeEmployeeDetails**
+  > You can see the employee Details on a Pie-Chart.
+  ![](tutorial/step5.png)  
 
