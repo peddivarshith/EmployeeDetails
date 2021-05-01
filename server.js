@@ -44,6 +44,18 @@ app.get('/updateEmployeeDetails', (req,res) => {
 app.get('/deleteEmployeeDetails', (req,res) =>{
 	res.render('deleteEmployee.ejs')
 })
+
+app.get('/visualizeEmployeeDetails', (req,res) =>{
+	res.render('visual.ejs');
+})
+
+app.get('/details', (req,res) =>{
+	collection.collection('Salaries').find().toArray((err,result) =>{
+		if(err)return console.log(err);
+	res.json(result);
+	
+	})
+})
 //Data changes in mongodb
 app.post('/AddEmployee', (req,res) =>{
 	console.log("reg-object:"+req);
